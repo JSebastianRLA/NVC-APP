@@ -1,0 +1,7 @@
+{
+  "name": "NVC-APP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
