@@ -1,0 +1,42 @@
+.Ioncontent {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.start {
+    flex: 1;
+    padding: 0;
+    border: none;
+    color: #3880ff;
+}
+
+.middle {
+    flex: 3;
+    border: none;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: none;
+    border-bottom: 1px solid #c5c5c5;
+    color: white;
+}
+
+.end {
+    margin-left: 5px;
+    flex: 1;
+    padding: 0;
+    border: none;
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 5px 10px;
+}

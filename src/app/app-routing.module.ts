@@ -8,8 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'select',
     pathMatch: 'full'
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./select/select.module').then( m => m.SelectPageModule)
   },
 ];
 

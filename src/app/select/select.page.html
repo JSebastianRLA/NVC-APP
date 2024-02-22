@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-header collapse="condense"> </ion-header>
+
+  <div
+    style="
+      background-color: white !important;
+      position: relative;
+      border-radius: 0 0 25px 25px;
+      margin-top: 0;
+    "
+  >
+    <ion-img
+      src="../../assets/images/logos nvc/300x149.png"
+      style="display: block; margin: 0 auto; width: 50%"
+    ></ion-img>
+    <button
+      (click)="redirectToHomePage()"
+      style="
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+      "
+    >
+      <ion-icon
+        name="arrow-back-circle-outline"
+        style="color: black; scale: 1.5"
+      ></ion-icon>
+    </button>
+  </div>
+
+  <div style="margin-top: 120px; display: flex; justify-content: space-between">
+    <ion-item lines="none" style="flex: 1">
+      <label class="start" style="padding: 0">https://</label>
+      <ion-input placeholder="example" class="middle" #exampleInput></ion-input>
+      <label class="start">/index.php/</label>
+    </ion-item>
+  </div>
+  <div
+    style="display: flex; justify-content: center; margin-top: 15px; scale: 1.5"
+  >
+    <ion-icon name="chevron-up-outline" style="color: white"></ion-icon>
+  </div>
+  <div style="display: flex; justify-content: center; margin-top: 15px">
+    <h1 style="text-align: center; color: white">Modify the url</h1>
+  </div>
+  <div style="display: flex; justify-content: center; margin-top: 15px">
+    <button class="transparent-button" (click)="sendModify()">Submit</button>
+  </div>
+</ion-content>
