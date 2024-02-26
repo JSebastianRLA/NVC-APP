@@ -13,7 +13,11 @@ export class HomePage implements OnInit {
   inputValue: string | null = null;
   private baseUrl = 'http://192.168.0.158/pandora_console/mobile/';
 
-  constructor(private browser: InAppBrowser, private router: Router, private inputValueService: InputValueService) {}
+  constructor(
+    private browser: InAppBrowser,
+    private router: Router,
+    private inputValueService: InputValueService
+  ) {}
 
   logToConsole() {
     this.router.navigateByUrl('/select');
@@ -21,7 +25,7 @@ export class HomePage implements OnInit {
   }
 
   ngOnInit(): void {
-    this.inputValueService.inputValue$.subscribe(value => {
+    this.inputValueService.inputValue$.subscribe((value) => {
       this.inputValue = value;
       const parts = this.baseUrl.split('/');
       parts[2] = this.inputValue ? this.inputValue : '192.168.0.158'; // Reemplaza solo la parte que deseas cambiar
