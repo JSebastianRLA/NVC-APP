@@ -11,7 +11,7 @@ import { InputValueService } from '../input-value.service';
 })
 export class HomePage implements OnInit {
   inputValue: string | null = null;
-  private baseUrl = 'http://192.168.0.158/pandora_console/mobile/';
+  private baseUrl = 'https://monlab.ngeek.net:8083/pandora_console/mobile/';
 
   constructor(
     private browser: InAppBrowser,
@@ -28,7 +28,7 @@ export class HomePage implements OnInit {
     this.inputValueService.inputValue$.subscribe((value) => {
       this.inputValue = value;
       const parts = this.baseUrl.split('/');
-      parts[2] = this.inputValue ? this.inputValue : '192.168.0.158'; // Reemplaza solo la parte que deseas cambiar
+      parts[2] = this.inputValue ? this.inputValue : 'monlab.ngeek.net:8083'; // Reemplaza solo la parte que deseas cambiar
       const url = parts.join('/');
       const browserInstance = this.browser.create(
         url,
