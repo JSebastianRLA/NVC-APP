@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95567935840",
+    "project_id": "nvc-app-5335f",
+    "storage_bucket": "nvc-app-5335f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95567935840:android:1ea7e74d85a60191b94605",
+        "android_client_info": {
+          "package_name": "nvc.extension1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFG9Fn44acpYm4SnC_BzAswmZ9OvO1n3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
