@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "95567935840",
-    "project_id": "nvc-app-5335f",
-    "storage_bucket": "nvc-app-5335f.appspot.com"
+    "project_number": "37986858522",
+    "project_id": "nvc-app-392f8",
+    "storage_bucket": "nvc-app-392f8.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:95567935840:android:1ea7e74d85a60191b94605",
+        "mobilesdk_app_id": "1:37986858522:android:c988dc5d78fa9e323dc3a3",
         "android_client_info": {
-          "package_name": "nvc.extension1"
+          "package_name": "com.nvc.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBFG9Fn44acpYm4SnC_BzAswmZ9OvO1n3o"
+          "current_key": "AIzaSyAhLIYM8zw6gnWtwPl7p0mknZgcOvjUajQ"
         }
       ],
       "services": {
